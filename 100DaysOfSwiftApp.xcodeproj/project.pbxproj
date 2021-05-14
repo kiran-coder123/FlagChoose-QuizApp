@@ -16,6 +16,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		591D80672642627B007D0DA6 /* demolazyProperty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demolazyProperty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		591D806926426616007D0DA6 /* demoAccessControl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demoAccessControl.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		591D806B26426FED007D0DA6 /* practicesClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = practicesClass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5975FE1B263AA66E006C8FC5 /* loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		597F34DB2642B81A0002E305 /* demoProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demoProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		59A314AA262ECE9A003AF958 /* 100DaysOfSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A314AD262ECE9A003AF958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59A314AF262ECE9A003AF958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		59A314B6262ECEAB003AF958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59A314B9262ECEAB003AF958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59A314BB262ECEAB003AF958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59AB115D2641217B00C7CE79 /* demostruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demostruct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		59A314AC262ECE9A003AF958 /* 100DaysOfSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				59A314C2262ECECF003AF958 /* Playground Files */,
 				59A314AD262ECE9A003AF958 /* AppDelegate.swift */,
 				59A314AF262ECE9A003AF958 /* SceneDelegate.swift */,
 				59A314B1262ECE9A003AF958 /* ViewController.swift */,
@@ -65,6 +72,19 @@
 				59A314BB262ECEAB003AF958 /* Info.plist */,
 			);
 			path = 100DaysOfSwiftApp;
+			sourceTree = "<group>";
+		};
+		59A314C2262ECECF003AF958 /* Playground Files */ = {
+			isa = PBXGroup;
+			children = (
+				5975FE1B263AA66E006C8FC5 /* loops.playground */,
+				59AB115D2641217B00C7CE79 /* demostruct.playground */,
+				591D80672642627B007D0DA6 /* demolazyProperty.playground */,
+				591D806926426616007D0DA6 /* demoAccessControl.playground */,
+				591D806B26426FED007D0DA6 /* practicesClass.playground */,
+				597F34DB2642B81A0002E305 /* demoProtocols.playground */,
+			);
+			path = "Playground Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
