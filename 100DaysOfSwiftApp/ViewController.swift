@@ -68,6 +68,8 @@ class ViewController: UIViewController {
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         present(ac, animated: true, completion: nil)
     }
-    
+    func showFlagies(){
+        // this method for testing 
+    }
 }
 
